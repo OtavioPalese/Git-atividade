@@ -35,3 +35,14 @@ body{
     margin-right: 60px;
     border: solid 7px rgba(59, 148, 184, 0.767);
 }
+.momentos{
+    margin-top: 100px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+.momentos img{
+    border: solid 10px rgba(59, 148, 184, 0.767); 
+    width: 550px;
+}
