@@ -46,3 +46,43 @@ body{
     border: solid 10px rgba(59, 148, 184, 0.767); 
     width: 550px;
 }
+.favoritos{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+}
+.lista{
+    display: flex;
+    flex-direction: column;
+    margin-top: 160px;
+    padding: 30px;
+    background-color: rgba(59, 148, 184, 0.767);
+    border-radius: 30px;
+}
+.lista-1{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.lista-2{
+    display: flex;
+    flex-direction: column;
+    margin: 40px;
+}
+.lista-3{
+    display: flex;
+    flex-direction: column;
+}
+.lista-titulo{
+    margin-top: 15px;
+    font-size: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.lista-text{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.lista img{
+    height: 500px;
+    width: 375px;
+}
